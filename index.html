@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet But Psycho</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="sweetbutpsycho.css">
+    <link rel="icon" href="media/S-P2.png">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <div class="menu-bar">
+                
+                <ul>
+                    <li id="home"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" onclick="myFunction()" class="dropbtn">Pages</a>
+                        <div id="myDropdown" class="dropdown-content"><br>
+                            <a id="menu" href="#">Link 1</a><br>
+                            <a id="menu" href="#">Link 2</a><br>
+                            <a id="menu" href="#">Link 3</a><br>
+                            <a id="menu" href="#">Link 3</a><br>
+                          </div>
+                    </li>
+                    
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>
+            
+        <div class="item2">
+            <div class="container">
+                <div class="navbar">
+                    <p id="titre">SWEET BUT PSYCHO</p>
+                    <ul>
+                        <!--<li><a href="#">HOME</a></li>-->
+                        <li><a href="#">RECHERCHER</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="item3">
+            <p>Sweet or Psycho ? You have to choose.. No just kidding, you can find both here ! Fashion, criminal <br>cases, beauty, math (I can see your hands shaking of fear), food, psychology.. Yes ! All in one blog !</p>
+        </div>
+        <div class="item4"> </div> <!--Image background-->
+        <div class="item5">
+            <img src="media/dakota1.jpg" alt="Dakota Johnson">
+            <br>
+            <img src="media/angelina.jpg" alt="Angelina Jolie">
+        </div>
+        <div class="item6">
+            <br><br><br>
+            <a href="#" class="article-title">Best outfits of Dakota Johnson !</a>
+            <p id="article">Dakota Johnson est l'enfant unique des acteurs américains Don Johnson et Melanie Griffith. Elle est la petite-fille de l'actrice Tippi Hedren2 et du publicitaire Peter Griffith. Elle est également la nièce de l'actrice Tracy Griffith. Ses parents ont divorcé en 1996 après sept ans de mariage3. Elle a trois demi-frères et une demi-sœur paternels : Jesse Wayne Johnson (né le 7 décembre 1982), Atherton Grace Johnson (née le 28 décembre 1999), Jasper Breckinridge Johnson (né le 6 juin 2002) et Deacon Johnson (né le 29 avril 2006). Elle a également un demi-frère et une demi-sœur maternels : Alexander Griffith-Bauer (né le 22 août 1985) et Stella del Carmen Banderas (née le 24 septembre 1996). Elle a été la belle-fille de l'acteur espagnol Antonio Banderas de 1996 à 20154.</p>
+            <a href="#" id="lire">Lire la suite..<br></a>
+            <br><br><br><br><br>
+            <a href="#" class="article-title">Angelina Jolie..victime de violence conjugale ?</a>
+            <p id="article">Le magazine américain Page Six fait sensation en révélant des clichés montrant Angelina couverte d’ecchymoses et de bleus causés prétendument par son mari de l’époque et père de ses six enfants, Brad Pitt. Selon le magazine, les faits remonteraient à 2016 alors que la famille Jolie-Pitt, de retour de Nice, était à bord d’un jet privé et que Brad était visiblement sous l’emprise de l’alcool :  </p>
+            <a href="#" id="lire">Lire la suite..<br></a>
+
+        </div>
+        <div class="item7"><p>Copyright 2007</p></div>
+        
+    </div>
+    
+</body>
+</html>
