@@ -1,0 +1,250 @@
+body {
+    background-color: black
+}
+
+
+/* Titre-Home-Recherche */
+.container{
+    height: 5vh;
+    width: 100%;
+    background-color:black;
+    /*position:relative;*/
+}
+.navbar{
+    width:88%;
+    margin-top:0px;
+    padding:0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(233, 36, 79);
+    margin-top:0px;
+    font-size: 15px;
+    text-align: right;
+    padding:0px 20px;
+}
+#titre{
+    color:rgb(233, 36, 79);
+    font-family: Lucida Handwriting; /*Comic Sans MS;*/
+    font-size:30px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 0px 200px;
+}
+.item2{
+  grid-column: span 5;
+  background-color: #000000;
+}
+/* Titre-Home-Rechercher END */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /*gap: 10px;*/
+    background-color: black;
+  }
+  /* Image background */
+  .item4{
+    grid-column: span 5;
+    background-image: url(media/pinkcat.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  /*Text: Sweet or psycho */
+  .item3{
+    grid-column: span 5;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .item3 p{
+    color: rgb(201, 201, 201);
+    font-family: calibri;
+    font-size:16px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 0px 200px;
+  }
+
+  /* Images d'articles */
+  .item5{
+    grid-column: span 2;
+    background-color: rgb(243, 168, 180);
+    margin: 0px 0px;
+    padding: 0px 0;
+    /*margin-bottom: 50px;*/
+  }
+  .item5 img{
+    border-radius: 30px;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+  }
+
+  /* Texte d'articles */
+  .item6{
+    grid-column: span 3;
+    background-color: rgb(243, 168, 180);
+  }
+
+  /* Copyright */
+  .item7{
+    grid-column: span 5;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 200px;
+    align-items:center;
+    margin-left:550px;
+    text-align: left;
+  }
+  .item7 p{
+    font-family: Open Sans;
+    color: rgb(218, 183, 193);
+    font-size: 16px;
+  }
+
+
+  .item1{
+    grid-row: span 5;
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+  }
+  #article{
+    color:rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-weight: light;
+    font-size:20px;
+    text-align: left;
+    margin-left: 20px;
+    width:500px;
+    margin-top: 20px;
+  }
+  #lire{
+    text-decoration: none;
+    color:rgb(180, 88, 108);
+    font-family: Open Sans;
+    font-weight: light;
+    font-size:20px;
+    text-align: left;
+    width:600px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 500px;
+    padding-bottom: 50px;
+  }
+  .article-title:link {
+    color:rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size:30px;
+    text-align: left;
+    margin-left: 20px;
+    width:500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  .article-title:visited {
+    color:rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size:30px;
+    text-align: left;
+    margin-left: 20px;
+    width:500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  .article-title:hover {
+    color:rgb(105, 63, 75);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size:30px;
+    text-align: left;
+    margin-left: 20px;
+    width:500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  .article-title:active {
+    color:rgb(105, 63, 75);
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size:30px;
+    text-align: left;
+    margin-left: 20px;
+    width:500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+
+  .menu-bar ul{
+    padding: 15px 20px;
+  }
+  .menu-bar ul li{
+    padding: 15px 5px;
+    position: relative;
+  }
+  #home{
+    padding-top: 150px;
+  }
+  .menu-bar ul li a{
+    color:rgb(192, 60, 89);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial black;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover{
+    color:rgb(218, 183, 193);
+  }
+  #menu{
+    color:rgb(126, 125, 125);
+    transition: all 0.3s;
+  }
+  #menu:hover{
+    color:rgb(192, 60, 89);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(44, 44, 44);
+    min-width: 130px;
+    min-height: 200px;
+    /*box-shadow: 0px 8px 16px 0px rgba(182, 44, 90, 0.836);*/
+    z-index: 1;
+    padding-left: 20px;
+  }
+  .dropdown-content a{
+    display: block;
+  }
+  .show {display:block;}
