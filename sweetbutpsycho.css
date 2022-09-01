@@ -54,7 +54,7 @@ body {
   /* Image background */
   .item4{
     grid-column: span 5;
-    background-image: url(media/pinkcat.jpg);
+    background-image: url(pinkcat.jpg);
     width: 100%;
     background-size: cover;
     height: 500px;
